@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.choice{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.choice img{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choice:hover{
+    cursor: pointer;
+    border:2px solid black;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 30px;
+    gap: 50px;
+    text-align: center;
+}
+#user-score, #computer-score{
+    font-size: 50px;
+}
+.msg-container{
+    margin-top: 50px;
+    text-align: center;
+}
+#msg{
+    background-color: black;
+    color: white;
+    display: inline;
+    text-align: center;
+    padding: 15px;
+    border-radius:10px;
+}
+
+.choicesshow{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.choiceshow{
+    height: 250px;
+    width: 180px;
+    /* border-radius: 50%; */
+    /* display: flex; */
+    justify-content: center;
+    margin-bottom:20px;
+    /* display: none; */
+}
+.choiceshow img{
+    height: 180px;
+    width: 180px;
+    /* object-fit: cover; */
+    border-radius: 50%;
+    align-items: center;
+}
+
+.choiceshow p{
+    text-align: center;
+}
+
+
+.userStone{
+    display: none;
+}
+.userPaper{
+    display: none;
+}
+.userScissors{
+    display: none;
+}
+
+.computerStone{
+    display: none;
+}
+.computerPaper{
+    display: none;
+}
+.computerScissors{
+    display: none;
+}
